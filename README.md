@@ -18,7 +18,7 @@ let package = Package(
     .package(
       name: "ImageZoom",
       url: "https://github.com/markbattistella/image-zoom-publish-plugin",
-      from: "1.0.0"
+      from: "1.1.0"
 	)
   ],
   targets: [
