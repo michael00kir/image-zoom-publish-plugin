@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.5
 
 // ImageZoom plugin for Publish
 // Copyright (c) Mark Battistella 2022
@@ -8,6 +8,7 @@ import PackageDescription
 
 let package = Package(
 	name: "ImageZoom",
+	 platforms: [.macOS(.v12)],
 	products: [
 		.library(
 			name: "ImageZoom",
